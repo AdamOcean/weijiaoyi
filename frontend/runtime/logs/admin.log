@@ -1,0 +1,1191 @@
+2017-10-12 18:06:24 [GET][http://www.100gift.cn/admin/user/user-excel?][220.178.225.10][2][83jkpssn5706s9ep46rrpfgrv3][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: admin\models\User::user' in /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Component.php:143
+Stack trace:
+#0 /www/web/100gift/public_html/vendor/yiisoft/yii2/db/BaseActiveRecord.php(252): yii\base\Component->__get('user')
+#1 /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php(115): yii\db\BaseActiveRecord->__get('user')
+#2 [internal function]: admin\controllers\UserController->actionUserExcel()
+#3 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Controller.php(160): yii\base\InlineAction->runWithParams(Array)
+#5 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('user-excel', Array)
+#6 /www/web/100gift/public_html/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/user/user...', Array)
+#7 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /www/web/100gift/public_html/frontend/web/index.php(18): yii\base\Application->run()
+#9 {main}
+2017-10-12 22:35:54 [GET][http://www.100gift.cn/admin/user/charge-record-list][113.75.104.177][2][83peojk4kgu4buiq8r79l58h50][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getParentLink() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php:404
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-12 22:35:56 [GET][http://www.100gift.cn/admin/user/charge-record-list][113.75.104.177][2][83peojk4kgu4buiq8r79l58h50][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getParentLink() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php:404
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-12 22:35:59 [GET][http://www.100gift.cn/admin/user/charge-record-list][113.75.104.177][2][83peojk4kgu4buiq8r79l58h50][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getParentLink() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php:404
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-12 22:36:03 [GET][http://www.100gift.cn/admin/user/charge-record-list][113.75.104.177][2][83peojk4kgu4buiq8r79l58h50][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getParentLink() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php:404
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-13 13:07:20 [GET][http://www.100gift.cn/admin/user/charge-record-list][220.178.225.21][2][l976n3b2f8v4oupr6hvo6qo6g2][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getParentLink() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php:404
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-13 15:13:35 [GET][http://www.100gift.cn/admin/user/charge-record-list][119.98.161.22][2][63t4vj5eo7essegrlpm59tkjo3][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getParentLink() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php:404
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-13 15:13:39 [GET][http://www.100gift.cn/admin/user/charge-record-list][119.98.161.22][2][63t4vj5eo7essegrlpm59tkjo3][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getParentLink() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php:404
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-13 15:28:22 [GET][http://www.100gift.cn/admin/user/charge-record-list][119.98.161.22][2][63t4vj5eo7essegrlpm59tkjo3][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getParentLink() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php:404
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-25 20:00:00 [GET][http://100gift.cn/admin/user/charge-record-list][117.29.103.12][2][q42e3rbods208rtjfdor3lrqu7][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getParentLink() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php:404
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-26 14:47:36 [GET][http://100gift.cn/admin/user/charge-record-list][114.230.97.127][2][lk370cgeehnijqoooh6ri5g8a0][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getParentLink() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php:417
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-26 14:47:38 [GET][http://100gift.cn/admin/user/charge-record-list][114.230.97.127][2][lk370cgeehnijqoooh6ri5g8a0][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getParentLink() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php:417
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-26 14:56:06 [POST][http://100gift.cn/admin/user/delete-all][114.230.97.127][2][lk370cgeehnijqoooh6ri5g8a0][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '}'' in /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php:175
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-27 17:09:18 [GET][http://100gift.cn/admin/user/charge-record-list][117.29.103.12][2][inv6j7r8011oshboscp7e5stm2][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getParentLink() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php:416
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-27 17:12:02 [GET][http://100gift.cn/admin/order/list][117.29.103.12][2][inv6j7r8011oshboscp7e5stm2][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getLeaderName() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:34
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-27 18:23:35 [GET][http://100gift.cn/admin/order/list][211.97.129.253][2][9i8m4liueje4vb5d2jc898nci2][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getLeaderName() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:34
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-27 18:23:40 [GET][http://100gift.cn/admin/order/list][211.97.129.253][2][9i8m4liueje4vb5d2jc898nci2][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getLeaderName() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:34
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-27 18:46:57 [GET][http://www.100gift.cn/admin/order/list][117.91.7.62][2][pe08eeo74lbsfbfmnm8lo09m70][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getLeaderName() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:34
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-27 18:46:59 [GET][http://www.100gift.cn/admin/order/list][117.91.7.62][2][pe08eeo74lbsfbfmnm8lo09m70][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getLeaderName() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:34
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-27 18:47:03 [GET][http://www.100gift.cn/admin/order/list][117.91.7.62][2][pe08eeo74lbsfbfmnm8lo09m70][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getLeaderName() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:34
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-27 18:47:04 [GET][http://www.100gift.cn/admin/order/list][117.91.7.62][2][pe08eeo74lbsfbfmnm8lo09m70][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getLeaderName() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:34
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-27 18:47:04 [GET][http://www.100gift.cn/admin/order/list][117.91.7.62][2][pe08eeo74lbsfbfmnm8lo09m70][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getLeaderName() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:34
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-27 18:47:04 [GET][http://www.100gift.cn/admin/order/list][117.91.7.62][2][pe08eeo74lbsfbfmnm8lo09m70][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getLeaderName() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:34
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-27 18:47:04 [GET][http://www.100gift.cn/admin/order/list][117.91.7.62][2][pe08eeo74lbsfbfmnm8lo09m70][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getLeaderName() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:34
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-27 18:47:05 [GET][http://www.100gift.cn/admin/order/list][117.91.7.62][2][pe08eeo74lbsfbfmnm8lo09m70][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getLeaderName() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:34
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-27 18:53:07 [GET][http://www.100gift.cn/admin/order/list][117.91.7.62][2][pe08eeo74lbsfbfmnm8lo09m70][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getLeaderName() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:34
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-27 18:53:12 [GET][http://www.100gift.cn/admin/order/list][117.91.7.62][2][pe08eeo74lbsfbfmnm8lo09m70][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getLeaderName() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:34
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-27 18:54:40 [GET][http://www.100gift.cn/admin/order/list][117.91.7.62][2][pe08eeo74lbsfbfmnm8lo09m70][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: row' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:21
+Stack trace:
+#0 /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php(21): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/www/web/100gif...', 21, Array)
+#1 [internal function]: admin\controllers\OrderController->actionList()
+#2 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Controller.php(160): yii\base\InlineAction->runWithParams(Array)
+#4 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('list', Array)
+#5 /www/web/100gift/public_html/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/order/lis...', Array)
+#6 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /www/web/100gift/public_html/frontend/web/index.php(18): yii\base\Application->run()
+#8 {main}
+2017-10-27 18:54:41 [GET][http://www.100gift.cn/admin/order/list][117.91.7.62][2][pe08eeo74lbsfbfmnm8lo09m70][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: row' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:21
+Stack trace:
+#0 /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php(21): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/www/web/100gif...', 21, Array)
+#1 [internal function]: admin\controllers\OrderController->actionList()
+#2 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Controller.php(160): yii\base\InlineAction->runWithParams(Array)
+#4 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('list', Array)
+#5 /www/web/100gift/public_html/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/order/lis...', Array)
+#6 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /www/web/100gift/public_html/frontend/web/index.php(18): yii\base\Application->run()
+#8 {main}
+2017-10-27 18:54:42 [GET][http://www.100gift.cn/admin/order/list][117.91.7.62][2][pe08eeo74lbsfbfmnm8lo09m70][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: row' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:21
+Stack trace:
+#0 /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php(21): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/www/web/100gif...', 21, Array)
+#1 [internal function]: admin\controllers\OrderController->actionList()
+#2 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Controller.php(160): yii\base\InlineAction->runWithParams(Array)
+#4 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('list', Array)
+#5 /www/web/100gift/public_html/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/order/lis...', Array)
+#6 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /www/web/100gift/public_html/frontend/web/index.php(18): yii\base\Application->run()
+#8 {main}
+2017-10-27 18:54:54 [GET][http://www.100gift.cn/admin/order/list][117.91.7.62][2][pe08eeo74lbsfbfmnm8lo09m70][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: row' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:21
+Stack trace:
+#0 /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php(21): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/www/web/100gif...', 21, Array)
+#1 [internal function]: admin\controllers\OrderController->actionList()
+#2 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Controller.php(160): yii\base\InlineAction->runWithParams(Array)
+#4 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('list', Array)
+#5 /www/web/100gift/public_html/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/order/lis...', Array)
+#6 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /www/web/100gift/public_html/frontend/web/index.php(18): yii\base\Application->run()
+#8 {main}
+2017-10-27 18:54:56 [GET][http://www.100gift.cn/admin/order/list][117.91.7.62][2][pe08eeo74lbsfbfmnm8lo09m70][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: row' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:21
+Stack trace:
+#0 /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php(21): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/www/web/100gif...', 21, Array)
+#1 [internal function]: admin\controllers\OrderController->actionList()
+#2 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Controller.php(160): yii\base\InlineAction->runWithParams(Array)
+#4 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('list', Array)
+#5 /www/web/100gift/public_html/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/order/lis...', Array)
+#6 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /www/web/100gift/public_html/frontend/web/index.php(18): yii\base\Application->run()
+#8 {main}
+2017-10-27 18:55:09 [GET][http://www.100gift.cn/admin/order/list][117.91.7.62][2][pe08eeo74lbsfbfmnm8lo09m70][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: row' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:21
+Stack trace:
+#0 /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php(21): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/www/web/100gif...', 21, Array)
+#1 [internal function]: admin\controllers\OrderController->actionList()
+#2 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Controller.php(160): yii\base\InlineAction->runWithParams(Array)
+#4 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('list', Array)
+#5 /www/web/100gift/public_html/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/order/lis...', Array)
+#6 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /www/web/100gift/public_html/frontend/web/index.php(18): yii\base\Application->run()
+#8 {main}
+2017-10-27 18:55:10 [GET][http://www.100gift.cn/admin/order/list][117.91.7.62][2][pe08eeo74lbsfbfmnm8lo09m70][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: row' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:21
+Stack trace:
+#0 /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php(21): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/www/web/100gif...', 21, Array)
+#1 [internal function]: admin\controllers\OrderController->actionList()
+#2 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Controller.php(160): yii\base\InlineAction->runWithParams(Array)
+#4 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('list', Array)
+#5 /www/web/100gift/public_html/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/order/lis...', Array)
+#6 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /www/web/100gift/public_html/frontend/web/index.php(18): yii\base\Application->run()
+#8 {main}
+2017-10-27 18:55:14 [GET][http://www.100gift.cn/admin/order/list][117.91.7.62][2][pe08eeo74lbsfbfmnm8lo09m70][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: row' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:21
+Stack trace:
+#0 /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php(21): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/www/web/100gif...', 21, Array)
+#1 [internal function]: admin\controllers\OrderController->actionList()
+#2 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Controller.php(160): yii\base\InlineAction->runWithParams(Array)
+#4 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('list', Array)
+#5 /www/web/100gift/public_html/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/order/lis...', Array)
+#6 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /www/web/100gift/public_html/frontend/web/index.php(18): yii\base\Application->run()
+#8 {main}
+2017-10-27 18:55:14 [GET][http://www.100gift.cn/admin/order/list][117.91.7.62][2][pe08eeo74lbsfbfmnm8lo09m70][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: row' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:21
+Stack trace:
+#0 /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php(21): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/www/web/100gif...', 21, Array)
+#1 [internal function]: admin\controllers\OrderController->actionList()
+#2 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Controller.php(160): yii\base\InlineAction->runWithParams(Array)
+#4 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('list', Array)
+#5 /www/web/100gift/public_html/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/order/lis...', Array)
+#6 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /www/web/100gift/public_html/frontend/web/index.php(18): yii\base\Application->run()
+#8 {main}
+2017-10-27 18:55:15 [GET][http://www.100gift.cn/admin/order/list][117.91.7.62][2][pe08eeo74lbsfbfmnm8lo09m70][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: row' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:21
+Stack trace:
+#0 /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php(21): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/www/web/100gif...', 21, Array)
+#1 [internal function]: admin\controllers\OrderController->actionList()
+#2 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Controller.php(160): yii\base\InlineAction->runWithParams(Array)
+#4 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('list', Array)
+#5 /www/web/100gift/public_html/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/order/lis...', Array)
+#6 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /www/web/100gift/public_html/frontend/web/index.php(18): yii\base\Application->run()
+#8 {main}
+2017-10-27 18:55:15 [GET][http://www.100gift.cn/admin/order/list][117.91.7.62][2][pe08eeo74lbsfbfmnm8lo09m70][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: row' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:21
+Stack trace:
+#0 /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php(21): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/www/web/100gif...', 21, Array)
+#1 [internal function]: admin\controllers\OrderController->actionList()
+#2 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Controller.php(160): yii\base\InlineAction->runWithParams(Array)
+#4 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('list', Array)
+#5 /www/web/100gift/public_html/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/order/lis...', Array)
+#6 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /www/web/100gift/public_html/frontend/web/index.php(18): yii\base\Application->run()
+#8 {main}
+2017-10-27 18:55:16 [GET][http://www.100gift.cn/admin/order/list][117.91.7.62][2][pe08eeo74lbsfbfmnm8lo09m70][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: row' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:21
+Stack trace:
+#0 /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php(21): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/www/web/100gif...', 21, Array)
+#1 [internal function]: admin\controllers\OrderController->actionList()
+#2 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Controller.php(160): yii\base\InlineAction->runWithParams(Array)
+#4 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('list', Array)
+#5 /www/web/100gift/public_html/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/order/lis...', Array)
+#6 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /www/web/100gift/public_html/frontend/web/index.php(18): yii\base\Application->run()
+#8 {main}
+2017-10-27 18:55:16 [GET][http://www.100gift.cn/admin/order/list][117.91.7.62][2][pe08eeo74lbsfbfmnm8lo09m70][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: row' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:21
+Stack trace:
+#0 /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php(21): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/www/web/100gif...', 21, Array)
+#1 [internal function]: admin\controllers\OrderController->actionList()
+#2 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Controller.php(160): yii\base\InlineAction->runWithParams(Array)
+#4 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('list', Array)
+#5 /www/web/100gift/public_html/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/order/lis...', Array)
+#6 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /www/web/100gift/public_html/frontend/web/index.php(18): yii\base\Application->run()
+#8 {main}
+2017-10-27 18:55:16 [GET][http://www.100gift.cn/admin/order/list][117.91.7.62][2][pe08eeo74lbsfbfmnm8lo09m70][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: row' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:21
+Stack trace:
+#0 /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php(21): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/www/web/100gif...', 21, Array)
+#1 [internal function]: admin\controllers\OrderController->actionList()
+#2 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Controller.php(160): yii\base\InlineAction->runWithParams(Array)
+#4 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('list', Array)
+#5 /www/web/100gift/public_html/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/order/lis...', Array)
+#6 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /www/web/100gift/public_html/frontend/web/index.php(18): yii\base\Application->run()
+#8 {main}
+2017-10-27 18:55:22 [GET][http://www.100gift.cn/admin/order/list][117.91.7.62][8][i4dmbq5rjf6bq04m8eorcs9nt0][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: row' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:21
+Stack trace:
+#0 /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php(21): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/www/web/100gif...', 21, Array)
+#1 [internal function]: admin\controllers\OrderController->actionList()
+#2 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Controller.php(160): yii\base\InlineAction->runWithParams(Array)
+#4 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('list', Array)
+#5 /www/web/100gift/public_html/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/order/lis...', Array)
+#6 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /www/web/100gift/public_html/frontend/web/index.php(18): yii\base\Application->run()
+#8 {main}
+2017-10-27 18:55:23 [GET][http://www.100gift.cn/admin/order/list][117.91.7.62][8][i4dmbq5rjf6bq04m8eorcs9nt0][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: row' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:21
+Stack trace:
+#0 /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php(21): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/www/web/100gif...', 21, Array)
+#1 [internal function]: admin\controllers\OrderController->actionList()
+#2 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Controller.php(160): yii\base\InlineAction->runWithParams(Array)
+#4 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('list', Array)
+#5 /www/web/100gift/public_html/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/order/lis...', Array)
+#6 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /www/web/100gift/public_html/frontend/web/index.php(18): yii\base\Application->run()
+#8 {main}
+2017-10-27 18:55:23 [GET][http://www.100gift.cn/admin/order/list][117.91.7.62][8][i4dmbq5rjf6bq04m8eorcs9nt0][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: row' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:21
+Stack trace:
+#0 /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php(21): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/www/web/100gif...', 21, Array)
+#1 [internal function]: admin\controllers\OrderController->actionList()
+#2 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Controller.php(160): yii\base\InlineAction->runWithParams(Array)
+#4 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('list', Array)
+#5 /www/web/100gift/public_html/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/order/lis...', Array)
+#6 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /www/web/100gift/public_html/frontend/web/index.php(18): yii\base\Application->run()
+#8 {main}
+2017-10-27 18:55:24 [GET][http://www.100gift.cn/admin/order/list][117.91.7.62][8][i4dmbq5rjf6bq04m8eorcs9nt0][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: row' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:21
+Stack trace:
+#0 /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php(21): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/www/web/100gif...', 21, Array)
+#1 [internal function]: admin\controllers\OrderController->actionList()
+#2 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Controller.php(160): yii\base\InlineAction->runWithParams(Array)
+#4 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('list', Array)
+#5 /www/web/100gift/public_html/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/order/lis...', Array)
+#6 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /www/web/100gift/public_html/frontend/web/index.php(18): yii\base\Application->run()
+#8 {main}
+2017-10-27 18:55:24 [GET][http://www.100gift.cn/admin/order/list][117.91.7.62][8][i4dmbq5rjf6bq04m8eorcs9nt0][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: row' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:21
+Stack trace:
+#0 /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php(21): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/www/web/100gif...', 21, Array)
+#1 [internal function]: admin\controllers\OrderController->actionList()
+#2 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Controller.php(160): yii\base\InlineAction->runWithParams(Array)
+#4 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('list', Array)
+#5 /www/web/100gift/public_html/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/order/lis...', Array)
+#6 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /www/web/100gift/public_html/frontend/web/index.php(18): yii\base\Application->run()
+#8 {main}
+2017-10-27 18:59:36 [GET][http://www.100gift.cn/admin/order/list][117.91.7.62][2][pe08eeo74lbsfbfmnm8lo09m70][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getLeaderName() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:34
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-27 19:01:22 [GET][http://www.100gift.cn/admin/order/list][117.91.7.62][2][pe08eeo74lbsfbfmnm8lo09m70][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getLeaderName() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:34
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-30 13:17:43 [GET][http://100gift.cn/admin/order/list][27.154.172.94][2][je1smture1adq0uet59l8vlc66][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getLeaderName() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:34
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-30 13:19:45 [GET][http://100gift.cn/admin/user/charge-record-list][27.154.172.94][2][je1smture1adq0uet59l8vlc66][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getParentLink() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php:416
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-30 13:19:59 [GET][http://100gift.cn/admin/order/list][27.154.172.94][2][je1smture1adq0uet59l8vlc66][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getLeaderName() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:34
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-30 13:20:45 [GET][http://100gift.cn/admin/order/list][27.154.172.94][2][je1smture1adq0uet59l8vlc66][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getLeaderName() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:34
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-30 13:27:03 [GET][http://100gift.cn/admin/order/list][27.154.172.94][2][je1smture1adq0uet59l8vlc66][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getLeaderName() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:34
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-30 13:31:32 [GET][http://100gift.cn/admin/order/list][27.154.172.94][2][je1smture1adq0uet59l8vlc66][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getLeaderName() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:34
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-30 13:32:21 [GET][http://100gift.cn/admin/user/user-excel?][27.154.172.94][2][je1smture1adq0uet59l8vlc66][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: admin\models\User::user' in /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Component.php:143
+Stack trace:
+#0 /www/web/100gift/public_html/vendor/yiisoft/yii2/db/BaseActiveRecord.php(252): yii\base\Component->__get('user')
+#1 /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php(116): yii\db\BaseActiveRecord->__get('user')
+#2 [internal function]: admin\controllers\UserController->actionUserExcel()
+#3 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Controller.php(160): yii\base\InlineAction->runWithParams(Array)
+#5 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('user-excel', Array)
+#6 /www/web/100gift/public_html/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/user/user...', Array)
+#7 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /www/web/100gift/public_html/frontend/web/index.php(18): yii\base\Application->run()
+#9 {main}
+2017-10-30 14:21:47 [GET][http://100gift.cn/admin/order/list][117.30.58.94][2][i9a9uvp170am10m3an4p5e5pq1][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getLeaderName() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:34
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-30 14:22:12 [GET][http://100gift.cn/admin/order/list][117.30.58.94][2][i9a9uvp170am10m3an4p5e5pq1][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getLeaderName() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:34
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-30 14:33:25 [GET][http://100gift.cn/admin/order/list][117.30.58.94][2][i9a9uvp170am10m3an4p5e5pq1][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getLeaderName() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:34
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-30 14:35:00 [GET][http://100gift.cn/admin/order/list][117.30.58.94][2][i9a9uvp170am10m3an4p5e5pq1][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getLeaderName() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:34
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-30 14:35:22 [GET][http://100gift.cn/admin/order/list][117.30.58.94][2][i9a9uvp170am10m3an4p5e5pq1][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getLeaderName() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:34
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-30 14:36:05 [GET][http://100gift.cn/admin/order/list][117.30.58.94][2][i9a9uvp170am10m3an4p5e5pq1][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getLeaderName() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:34
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-30 14:36:48 [GET][http://100gift.cn/admin/user/charge-record-list][117.30.58.94][2][i9a9uvp170am10m3an4p5e5pq1][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getParentLink() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php:416
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-30 14:36:53 [GET][http://100gift.cn/admin/order/list][117.30.58.94][2][i9a9uvp170am10m3an4p5e5pq1][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getLeaderName() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:34
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-30 14:38:09 [GET][http://100gift.cn/admin/user/charge-record-list][117.30.58.94][2][affoqsu6dhpam57k9csamb38s1][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getParentLink() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php:416
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-30 14:38:13 [GET][http://100gift.cn/admin/user/charge-record-list][117.30.58.94][2][affoqsu6dhpam57k9csamb38s1][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getParentLink() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php:416
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-30 14:38:25 [GET][http://100gift.cn/admin/order/list][27.159.53.175][2][4mp5gebm9i6075ichnm0hprg92][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getLeaderName() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:34
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-30 14:38:41 [GET][http://100gift.cn/admin/order/list][117.30.58.94][2][affoqsu6dhpam57k9csamb38s1][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getLeaderName() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:34
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-30 14:38:42 [GET][http://100gift.cn/admin/order/list][117.30.58.94][2][affoqsu6dhpam57k9csamb38s1][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getLeaderName() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:34
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-30 14:38:44 [GET][http://100gift.cn/admin/order/list][117.30.58.94][2][affoqsu6dhpam57k9csamb38s1][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getLeaderName() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:34
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-30 14:38:48 [GET][http://100gift.cn/admin/order/list][117.30.58.94][2][affoqsu6dhpam57k9csamb38s1][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getLeaderName() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:34
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-30 14:38:51 [GET][http://100gift.cn/admin/user/charge-record-list][117.30.58.94][2][affoqsu6dhpam57k9csamb38s1][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getParentLink() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php:416
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-30 14:38:59 [GET][http://100gift.cn/admin/order/list][27.159.53.175][2][4mp5gebm9i6075ichnm0hprg92][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getLeaderName() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:34
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-30 14:47:23 [GET][http://100gift.cn/admin/order/list][117.30.58.94][2][affoqsu6dhpam57k9csamb38s1][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getLeaderName() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:34
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-30 17:36:15 [GET][http://100gift.cn/admin/order/list][117.30.58.94][2][hgr1s9vbm44p2sd0otv1uah670][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getLeaderName() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:34
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-30 17:36:35 [GET][http://100gift.cn/admin/user/charge-record-list][117.30.58.94][2][hgr1s9vbm44p2sd0otv1uah670][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getParentLink() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php:416
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-30 17:45:52 [GET][http://100gift.cn/admin/user/charge-record-list][114.230.126.137][2][82tusa2nb18glkhn74jc7djgp5][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getParentLink() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php:416
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-30 17:45:57 [GET][http://100gift.cn/admin/user/charge-record-list][114.230.126.137][2][82tusa2nb18glkhn74jc7djgp5][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getParentLink() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php:416
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-30 17:47:40 [GET][http://100gift.cn/admin/user/charge-record-list][114.230.126.137][2][82tusa2nb18glkhn74jc7djgp5][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Use of undefined constant user - assumed 'user'' in /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php:416
+Stack trace:
+#0 /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php(416): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', '/www/web/100gif...', 416, Array)
+#1 [internal function]: admin\controllers\UserController->admin\controllers\{closure}(Object(admin\models\UserCharge), 169)
+#2 /www/web/100gift/public_html/common/widgets/Table.php(1757): call_user_func(Object(Closure), Object(admin\models\UserCharge), 169)
+#3 /www/web/100gift/public_html/common/widgets/Table.php(1072): common\widgets\Table->getContent(Object(admin\models\UserCharge), 169, Array)
+#4 /www/web/100gift/public_html/common/widgets/Table.php(1042): common\widgets\Table->renderTableRow(Object(admin\models\UserCharge), 169, 0)
+#5 /www/web/100gift/public_html/common/widgets/Table.php(847): common\widgets\Table->renderTableBody()
+#6 /www/web/100gift/public_html/common/widgets/Table.php(774): common\widgets\Table->renderItems()
+#7 /www/web/100gift/public_html/common/widgets/Table.php(577): common\widgets\Table->renderSection('{items}')
+#8 [internal function]: common\widgets\Table->common\widgets\{closure}(Array)
+#9 /www/web/100gift/public_html/common/widgets/Table.php(579): preg_replace_callback('/{\\w+}/', Object(Closure), '{search}\n<div c...')
+#10 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Widget.php(98): common\widgets\Table->run()
+#11 /www/web/100gift/public_html/common/traits/QueryTrait.php(368): yii\base\Widget::widget(Array)
+#12 /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php(438): common\components\ARQuery->getTable(Array, Array)
+#13 [internal function]: admin\controllers\UserController->actionChargeRecordList()
+#14 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#15 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Controller.php(160): yii\base\InlineAction->runWithParams(Array)
+#16 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('charge-record-l...', Array)
+#17 /www/web/100gift/public_html/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/user/char...', Array)
+#18 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /www/web/100gift/public_html/frontend/web/index.php(18): yii\base\Application->run()
+#20 {main}
+2017-10-30 17:47:55 [GET][http://100gift.cn/admin/user/charge-record-list][114.230.126.137][2][82tusa2nb18glkhn74jc7djgp5][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Use of undefined constant user - assumed 'user'' in /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php:416
+Stack trace:
+#0 /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php(416): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', '/www/web/100gif...', 416, Array)
+#1 [internal function]: admin\controllers\UserController->admin\controllers\{closure}(Object(admin\models\UserCharge), 169)
+#2 /www/web/100gift/public_html/common/widgets/Table.php(1757): call_user_func(Object(Closure), Object(admin\models\UserCharge), 169)
+#3 /www/web/100gift/public_html/common/widgets/Table.php(1072): common\widgets\Table->getContent(Object(admin\models\UserCharge), 169, Array)
+#4 /www/web/100gift/public_html/common/widgets/Table.php(1042): common\widgets\Table->renderTableRow(Object(admin\models\UserCharge), 169, 0)
+#5 /www/web/100gift/public_html/common/widgets/Table.php(847): common\widgets\Table->renderTableBody()
+#6 /www/web/100gift/public_html/common/widgets/Table.php(774): common\widgets\Table->renderItems()
+#7 /www/web/100gift/public_html/common/widgets/Table.php(577): common\widgets\Table->renderSection('{items}')
+#8 [internal function]: common\widgets\Table->common\widgets\{closure}(Array)
+#9 /www/web/100gift/public_html/common/widgets/Table.php(579): preg_replace_callback('/{\\w+}/', Object(Closure), '{search}\n<div c...')
+#10 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Widget.php(98): common\widgets\Table->run()
+#11 /www/web/100gift/public_html/common/traits/QueryTrait.php(368): yii\base\Widget::widget(Array)
+#12 /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php(438): common\components\ARQuery->getTable(Array, Array)
+#13 [internal function]: admin\controllers\UserController->actionChargeRecordList()
+#14 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#15 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Controller.php(160): yii\base\InlineAction->runWithParams(Array)
+#16 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('charge-record-l...', Array)
+#17 /www/web/100gift/public_html/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/user/char...', Array)
+#18 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /www/web/100gift/public_html/frontend/web/index.php(18): yii\base\Application->run()
+#20 {main}
+2017-10-30 17:47:56 [GET][http://100gift.cn/admin/user/charge-record-list][114.230.126.137][2][82tusa2nb18glkhn74jc7djgp5][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Use of undefined constant user - assumed 'user'' in /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php:416
+Stack trace:
+#0 /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php(416): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', '/www/web/100gif...', 416, Array)
+#1 [internal function]: admin\controllers\UserController->admin\controllers\{closure}(Object(admin\models\UserCharge), 169)
+#2 /www/web/100gift/public_html/common/widgets/Table.php(1757): call_user_func(Object(Closure), Object(admin\models\UserCharge), 169)
+#3 /www/web/100gift/public_html/common/widgets/Table.php(1072): common\widgets\Table->getContent(Object(admin\models\UserCharge), 169, Array)
+#4 /www/web/100gift/public_html/common/widgets/Table.php(1042): common\widgets\Table->renderTableRow(Object(admin\models\UserCharge), 169, 0)
+#5 /www/web/100gift/public_html/common/widgets/Table.php(847): common\widgets\Table->renderTableBody()
+#6 /www/web/100gift/public_html/common/widgets/Table.php(774): common\widgets\Table->renderItems()
+#7 /www/web/100gift/public_html/common/widgets/Table.php(577): common\widgets\Table->renderSection('{items}')
+#8 [internal function]: common\widgets\Table->common\widgets\{closure}(Array)
+#9 /www/web/100gift/public_html/common/widgets/Table.php(579): preg_replace_callback('/{\\w+}/', Object(Closure), '{search}\n<div c...')
+#10 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Widget.php(98): common\widgets\Table->run()
+#11 /www/web/100gift/public_html/common/traits/QueryTrait.php(368): yii\base\Widget::widget(Array)
+#12 /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php(438): common\components\ARQuery->getTable(Array, Array)
+#13 [internal function]: admin\controllers\UserController->actionChargeRecordList()
+#14 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#15 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Controller.php(160): yii\base\InlineAction->runWithParams(Array)
+#16 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('charge-record-l...', Array)
+#17 /www/web/100gift/public_html/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/user/char...', Array)
+#18 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /www/web/100gift/public_html/frontend/web/index.php(18): yii\base\Application->run()
+#20 {main}
+2017-10-30 17:47:57 [GET][http://100gift.cn/admin/user/charge-record-list][114.230.126.137][2][82tusa2nb18glkhn74jc7djgp5][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Use of undefined constant user - assumed 'user'' in /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php:416
+Stack trace:
+#0 /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php(416): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', '/www/web/100gif...', 416, Array)
+#1 [internal function]: admin\controllers\UserController->admin\controllers\{closure}(Object(admin\models\UserCharge), 169)
+#2 /www/web/100gift/public_html/common/widgets/Table.php(1757): call_user_func(Object(Closure), Object(admin\models\UserCharge), 169)
+#3 /www/web/100gift/public_html/common/widgets/Table.php(1072): common\widgets\Table->getContent(Object(admin\models\UserCharge), 169, Array)
+#4 /www/web/100gift/public_html/common/widgets/Table.php(1042): common\widgets\Table->renderTableRow(Object(admin\models\UserCharge), 169, 0)
+#5 /www/web/100gift/public_html/common/widgets/Table.php(847): common\widgets\Table->renderTableBody()
+#6 /www/web/100gift/public_html/common/widgets/Table.php(774): common\widgets\Table->renderItems()
+#7 /www/web/100gift/public_html/common/widgets/Table.php(577): common\widgets\Table->renderSection('{items}')
+#8 [internal function]: common\widgets\Table->common\widgets\{closure}(Array)
+#9 /www/web/100gift/public_html/common/widgets/Table.php(579): preg_replace_callback('/{\\w+}/', Object(Closure), '{search}\n<div c...')
+#10 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Widget.php(98): common\widgets\Table->run()
+#11 /www/web/100gift/public_html/common/traits/QueryTrait.php(368): yii\base\Widget::widget(Array)
+#12 /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php(438): common\components\ARQuery->getTable(Array, Array)
+#13 [internal function]: admin\controllers\UserController->actionChargeRecordList()
+#14 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#15 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Controller.php(160): yii\base\InlineAction->runWithParams(Array)
+#16 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('charge-record-l...', Array)
+#17 /www/web/100gift/public_html/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/user/char...', Array)
+#18 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /www/web/100gift/public_html/frontend/web/index.php(18): yii\base\Application->run()
+#20 {main}
+2017-10-30 17:47:58 [GET][http://100gift.cn/admin/user/charge-record-list][114.230.126.137][2][82tusa2nb18glkhn74jc7djgp5][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Use of undefined constant user - assumed 'user'' in /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php:416
+Stack trace:
+#0 /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php(416): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', '/www/web/100gif...', 416, Array)
+#1 [internal function]: admin\controllers\UserController->admin\controllers\{closure}(Object(admin\models\UserCharge), 169)
+#2 /www/web/100gift/public_html/common/widgets/Table.php(1757): call_user_func(Object(Closure), Object(admin\models\UserCharge), 169)
+#3 /www/web/100gift/public_html/common/widgets/Table.php(1072): common\widgets\Table->getContent(Object(admin\models\UserCharge), 169, Array)
+#4 /www/web/100gift/public_html/common/widgets/Table.php(1042): common\widgets\Table->renderTableRow(Object(admin\models\UserCharge), 169, 0)
+#5 /www/web/100gift/public_html/common/widgets/Table.php(847): common\widgets\Table->renderTableBody()
+#6 /www/web/100gift/public_html/common/widgets/Table.php(774): common\widgets\Table->renderItems()
+#7 /www/web/100gift/public_html/common/widgets/Table.php(577): common\widgets\Table->renderSection('{items}')
+#8 [internal function]: common\widgets\Table->common\widgets\{closure}(Array)
+#9 /www/web/100gift/public_html/common/widgets/Table.php(579): preg_replace_callback('/{\\w+}/', Object(Closure), '{search}\n<div c...')
+#10 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Widget.php(98): common\widgets\Table->run()
+#11 /www/web/100gift/public_html/common/traits/QueryTrait.php(368): yii\base\Widget::widget(Array)
+#12 /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php(438): common\components\ARQuery->getTable(Array, Array)
+#13 [internal function]: admin\controllers\UserController->actionChargeRecordList()
+#14 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#15 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Controller.php(160): yii\base\InlineAction->runWithParams(Array)
+#16 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('charge-record-l...', Array)
+#17 /www/web/100gift/public_html/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/user/char...', Array)
+#18 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /www/web/100gift/public_html/frontend/web/index.php(18): yii\base\Application->run()
+#20 {main}
+2017-10-30 17:47:59 [GET][http://100gift.cn/admin/user/charge-record-list][114.230.126.137][2][82tusa2nb18glkhn74jc7djgp5][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Use of undefined constant user - assumed 'user'' in /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php:416
+Stack trace:
+#0 /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php(416): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', '/www/web/100gif...', 416, Array)
+#1 [internal function]: admin\controllers\UserController->admin\controllers\{closure}(Object(admin\models\UserCharge), 169)
+#2 /www/web/100gift/public_html/common/widgets/Table.php(1757): call_user_func(Object(Closure), Object(admin\models\UserCharge), 169)
+#3 /www/web/100gift/public_html/common/widgets/Table.php(1072): common\widgets\Table->getContent(Object(admin\models\UserCharge), 169, Array)
+#4 /www/web/100gift/public_html/common/widgets/Table.php(1042): common\widgets\Table->renderTableRow(Object(admin\models\UserCharge), 169, 0)
+#5 /www/web/100gift/public_html/common/widgets/Table.php(847): common\widgets\Table->renderTableBody()
+#6 /www/web/100gift/public_html/common/widgets/Table.php(774): common\widgets\Table->renderItems()
+#7 /www/web/100gift/public_html/common/widgets/Table.php(577): common\widgets\Table->renderSection('{items}')
+#8 [internal function]: common\widgets\Table->common\widgets\{closure}(Array)
+#9 /www/web/100gift/public_html/common/widgets/Table.php(579): preg_replace_callback('/{\\w+}/', Object(Closure), '{search}\n<div c...')
+#10 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Widget.php(98): common\widgets\Table->run()
+#11 /www/web/100gift/public_html/common/traits/QueryTrait.php(368): yii\base\Widget::widget(Array)
+#12 /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php(438): common\components\ARQuery->getTable(Array, Array)
+#13 [internal function]: admin\controllers\UserController->actionChargeRecordList()
+#14 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#15 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Controller.php(160): yii\base\InlineAction->runWithParams(Array)
+#16 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('charge-record-l...', Array)
+#17 /www/web/100gift/public_html/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/user/char...', Array)
+#18 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /www/web/100gift/public_html/frontend/web/index.php(18): yii\base\Application->run()
+#20 {main}
+2017-10-30 17:48:04 [GET][http://100gift.cn/admin/user/charge-record-list][114.230.126.137][2][82tusa2nb18glkhn74jc7djgp5][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Use of undefined constant user - assumed 'user'' in /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php:416
+Stack trace:
+#0 /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php(416): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', '/www/web/100gif...', 416, Array)
+#1 [internal function]: admin\controllers\UserController->admin\controllers\{closure}(Object(admin\models\UserCharge), 169)
+#2 /www/web/100gift/public_html/common/widgets/Table.php(1757): call_user_func(Object(Closure), Object(admin\models\UserCharge), 169)
+#3 /www/web/100gift/public_html/common/widgets/Table.php(1072): common\widgets\Table->getContent(Object(admin\models\UserCharge), 169, Array)
+#4 /www/web/100gift/public_html/common/widgets/Table.php(1042): common\widgets\Table->renderTableRow(Object(admin\models\UserCharge), 169, 0)
+#5 /www/web/100gift/public_html/common/widgets/Table.php(847): common\widgets\Table->renderTableBody()
+#6 /www/web/100gift/public_html/common/widgets/Table.php(774): common\widgets\Table->renderItems()
+#7 /www/web/100gift/public_html/common/widgets/Table.php(577): common\widgets\Table->renderSection('{items}')
+#8 [internal function]: common\widgets\Table->common\widgets\{closure}(Array)
+#9 /www/web/100gift/public_html/common/widgets/Table.php(579): preg_replace_callback('/{\\w+}/', Object(Closure), '{search}\n<div c...')
+#10 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Widget.php(98): common\widgets\Table->run()
+#11 /www/web/100gift/public_html/common/traits/QueryTrait.php(368): yii\base\Widget::widget(Array)
+#12 /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php(438): common\components\ARQuery->getTable(Array, Array)
+#13 [internal function]: admin\controllers\UserController->actionChargeRecordList()
+#14 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#15 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Controller.php(160): yii\base\InlineAction->runWithParams(Array)
+#16 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('charge-record-l...', Array)
+#17 /www/web/100gift/public_html/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/user/char...', Array)
+#18 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /www/web/100gift/public_html/frontend/web/index.php(18): yii\base\Application->run()
+#20 {main}
+2017-10-30 17:48:05 [GET][http://100gift.cn/admin/user/charge-record-list][114.230.126.137][2][82tusa2nb18glkhn74jc7djgp5][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Use of undefined constant user - assumed 'user'' in /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php:416
+Stack trace:
+#0 /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php(416): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', '/www/web/100gif...', 416, Array)
+#1 [internal function]: admin\controllers\UserController->admin\controllers\{closure}(Object(admin\models\UserCharge), 169)
+#2 /www/web/100gift/public_html/common/widgets/Table.php(1757): call_user_func(Object(Closure), Object(admin\models\UserCharge), 169)
+#3 /www/web/100gift/public_html/common/widgets/Table.php(1072): common\widgets\Table->getContent(Object(admin\models\UserCharge), 169, Array)
+#4 /www/web/100gift/public_html/common/widgets/Table.php(1042): common\widgets\Table->renderTableRow(Object(admin\models\UserCharge), 169, 0)
+#5 /www/web/100gift/public_html/common/widgets/Table.php(847): common\widgets\Table->renderTableBody()
+#6 /www/web/100gift/public_html/common/widgets/Table.php(774): common\widgets\Table->renderItems()
+#7 /www/web/100gift/public_html/common/widgets/Table.php(577): common\widgets\Table->renderSection('{items}')
+#8 [internal function]: common\widgets\Table->common\widgets\{closure}(Array)
+#9 /www/web/100gift/public_html/common/widgets/Table.php(579): preg_replace_callback('/{\\w+}/', Object(Closure), '{search}\n<div c...')
+#10 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Widget.php(98): common\widgets\Table->run()
+#11 /www/web/100gift/public_html/common/traits/QueryTrait.php(368): yii\base\Widget::widget(Array)
+#12 /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php(438): common\components\ARQuery->getTable(Array, Array)
+#13 [internal function]: admin\controllers\UserController->actionChargeRecordList()
+#14 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#15 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Controller.php(160): yii\base\InlineAction->runWithParams(Array)
+#16 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('charge-record-l...', Array)
+#17 /www/web/100gift/public_html/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/user/char...', Array)
+#18 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /www/web/100gift/public_html/frontend/web/index.php(18): yii\base\Application->run()
+#20 {main}
+2017-10-30 17:48:16 [GET][http://100gift.cn/admin/user/charge-record-list][114.230.126.137][2][82tusa2nb18glkhn74jc7djgp5][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Use of undefined constant user - assumed 'user'' in /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php:416
+Stack trace:
+#0 /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php(416): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', '/www/web/100gif...', 416, Array)
+#1 [internal function]: admin\controllers\UserController->admin\controllers\{closure}(Object(admin\models\UserCharge), 169)
+#2 /www/web/100gift/public_html/common/widgets/Table.php(1757): call_user_func(Object(Closure), Object(admin\models\UserCharge), 169)
+#3 /www/web/100gift/public_html/common/widgets/Table.php(1072): common\widgets\Table->getContent(Object(admin\models\UserCharge), 169, Array)
+#4 /www/web/100gift/public_html/common/widgets/Table.php(1042): common\widgets\Table->renderTableRow(Object(admin\models\UserCharge), 169, 0)
+#5 /www/web/100gift/public_html/common/widgets/Table.php(847): common\widgets\Table->renderTableBody()
+#6 /www/web/100gift/public_html/common/widgets/Table.php(774): common\widgets\Table->renderItems()
+#7 /www/web/100gift/public_html/common/widgets/Table.php(577): common\widgets\Table->renderSection('{items}')
+#8 [internal function]: common\widgets\Table->common\widgets\{closure}(Array)
+#9 /www/web/100gift/public_html/common/widgets/Table.php(579): preg_replace_callback('/{\\w+}/', Object(Closure), '{search}\n<div c...')
+#10 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Widget.php(98): common\widgets\Table->run()
+#11 /www/web/100gift/public_html/common/traits/QueryTrait.php(368): yii\base\Widget::widget(Array)
+#12 /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php(438): common\components\ARQuery->getTable(Array, Array)
+#13 [internal function]: admin\controllers\UserController->actionChargeRecordList()
+#14 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#15 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Controller.php(160): yii\base\InlineAction->runWithParams(Array)
+#16 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('charge-record-l...', Array)
+#17 /www/web/100gift/public_html/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/user/char...', Array)
+#18 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /www/web/100gift/public_html/frontend/web/index.php(18): yii\base\Application->run()
+#20 {main}
+2017-10-30 17:48:17 [GET][http://100gift.cn/admin/user/charge-record-list][114.230.126.137][2][82tusa2nb18glkhn74jc7djgp5][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Use of undefined constant user - assumed 'user'' in /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php:416
+Stack trace:
+#0 /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php(416): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', '/www/web/100gif...', 416, Array)
+#1 [internal function]: admin\controllers\UserController->admin\controllers\{closure}(Object(admin\models\UserCharge), 169)
+#2 /www/web/100gift/public_html/common/widgets/Table.php(1757): call_user_func(Object(Closure), Object(admin\models\UserCharge), 169)
+#3 /www/web/100gift/public_html/common/widgets/Table.php(1072): common\widgets\Table->getContent(Object(admin\models\UserCharge), 169, Array)
+#4 /www/web/100gift/public_html/common/widgets/Table.php(1042): common\widgets\Table->renderTableRow(Object(admin\models\UserCharge), 169, 0)
+#5 /www/web/100gift/public_html/common/widgets/Table.php(847): common\widgets\Table->renderTableBody()
+#6 /www/web/100gift/public_html/common/widgets/Table.php(774): common\widgets\Table->renderItems()
+#7 /www/web/100gift/public_html/common/widgets/Table.php(577): common\widgets\Table->renderSection('{items}')
+#8 [internal function]: common\widgets\Table->common\widgets\{closure}(Array)
+#9 /www/web/100gift/public_html/common/widgets/Table.php(579): preg_replace_callback('/{\\w+}/', Object(Closure), '{search}\n<div c...')
+#10 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Widget.php(98): common\widgets\Table->run()
+#11 /www/web/100gift/public_html/common/traits/QueryTrait.php(368): yii\base\Widget::widget(Array)
+#12 /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php(438): common\components\ARQuery->getTable(Array, Array)
+#13 [internal function]: admin\controllers\UserController->actionChargeRecordList()
+#14 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#15 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Controller.php(160): yii\base\InlineAction->runWithParams(Array)
+#16 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('charge-record-l...', Array)
+#17 /www/web/100gift/public_html/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/user/char...', Array)
+#18 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /www/web/100gift/public_html/frontend/web/index.php(18): yii\base\Application->run()
+#20 {main}
+2017-10-30 17:48:18 [GET][http://100gift.cn/admin/user/charge-record-list][114.230.126.137][2][82tusa2nb18glkhn74jc7djgp5][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Use of undefined constant user - assumed 'user'' in /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php:416
+Stack trace:
+#0 /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php(416): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', '/www/web/100gif...', 416, Array)
+#1 [internal function]: admin\controllers\UserController->admin\controllers\{closure}(Object(admin\models\UserCharge), 169)
+#2 /www/web/100gift/public_html/common/widgets/Table.php(1757): call_user_func(Object(Closure), Object(admin\models\UserCharge), 169)
+#3 /www/web/100gift/public_html/common/widgets/Table.php(1072): common\widgets\Table->getContent(Object(admin\models\UserCharge), 169, Array)
+#4 /www/web/100gift/public_html/common/widgets/Table.php(1042): common\widgets\Table->renderTableRow(Object(admin\models\UserCharge), 169, 0)
+#5 /www/web/100gift/public_html/common/widgets/Table.php(847): common\widgets\Table->renderTableBody()
+#6 /www/web/100gift/public_html/common/widgets/Table.php(774): common\widgets\Table->renderItems()
+#7 /www/web/100gift/public_html/common/widgets/Table.php(577): common\widgets\Table->renderSection('{items}')
+#8 [internal function]: common\widgets\Table->common\widgets\{closure}(Array)
+#9 /www/web/100gift/public_html/common/widgets/Table.php(579): preg_replace_callback('/{\\w+}/', Object(Closure), '{search}\n<div c...')
+#10 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Widget.php(98): common\widgets\Table->run()
+#11 /www/web/100gift/public_html/common/traits/QueryTrait.php(368): yii\base\Widget::widget(Array)
+#12 /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php(438): common\components\ARQuery->getTable(Array, Array)
+#13 [internal function]: admin\controllers\UserController->actionChargeRecordList()
+#14 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#15 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Controller.php(160): yii\base\InlineAction->runWithParams(Array)
+#16 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('charge-record-l...', Array)
+#17 /www/web/100gift/public_html/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/user/char...', Array)
+#18 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /www/web/100gift/public_html/frontend/web/index.php(18): yii\base\Application->run()
+#20 {main}
+2017-10-30 17:48:18 [GET][http://100gift.cn/admin/user/charge-record-list][114.230.126.137][2][82tusa2nb18glkhn74jc7djgp5][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Use of undefined constant user - assumed 'user'' in /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php:416
+Stack trace:
+#0 /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php(416): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', '/www/web/100gif...', 416, Array)
+#1 [internal function]: admin\controllers\UserController->admin\controllers\{closure}(Object(admin\models\UserCharge), 169)
+#2 /www/web/100gift/public_html/common/widgets/Table.php(1757): call_user_func(Object(Closure), Object(admin\models\UserCharge), 169)
+#3 /www/web/100gift/public_html/common/widgets/Table.php(1072): common\widgets\Table->getContent(Object(admin\models\UserCharge), 169, Array)
+#4 /www/web/100gift/public_html/common/widgets/Table.php(1042): common\widgets\Table->renderTableRow(Object(admin\models\UserCharge), 169, 0)
+#5 /www/web/100gift/public_html/common/widgets/Table.php(847): common\widgets\Table->renderTableBody()
+#6 /www/web/100gift/public_html/common/widgets/Table.php(774): common\widgets\Table->renderItems()
+#7 /www/web/100gift/public_html/common/widgets/Table.php(577): common\widgets\Table->renderSection('{items}')
+#8 [internal function]: common\widgets\Table->common\widgets\{closure}(Array)
+#9 /www/web/100gift/public_html/common/widgets/Table.php(579): preg_replace_callback('/{\\w+}/', Object(Closure), '{search}\n<div c...')
+#10 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Widget.php(98): common\widgets\Table->run()
+#11 /www/web/100gift/public_html/common/traits/QueryTrait.php(368): yii\base\Widget::widget(Array)
+#12 /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php(438): common\components\ARQuery->getTable(Array, Array)
+#13 [internal function]: admin\controllers\UserController->actionChargeRecordList()
+#14 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#15 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Controller.php(160): yii\base\InlineAction->runWithParams(Array)
+#16 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('charge-record-l...', Array)
+#17 /www/web/100gift/public_html/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/user/char...', Array)
+#18 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /www/web/100gift/public_html/frontend/web/index.php(18): yii\base\Application->run()
+#20 {main}
+2017-10-30 17:48:18 [GET][http://100gift.cn/admin/user/charge-record-list][114.230.126.137][2][82tusa2nb18glkhn74jc7djgp5][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Use of undefined constant user - assumed 'user'' in /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php:416
+Stack trace:
+#0 /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php(416): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', '/www/web/100gif...', 416, Array)
+#1 [internal function]: admin\controllers\UserController->admin\controllers\{closure}(Object(admin\models\UserCharge), 169)
+#2 /www/web/100gift/public_html/common/widgets/Table.php(1757): call_user_func(Object(Closure), Object(admin\models\UserCharge), 169)
+#3 /www/web/100gift/public_html/common/widgets/Table.php(1072): common\widgets\Table->getContent(Object(admin\models\UserCharge), 169, Array)
+#4 /www/web/100gift/public_html/common/widgets/Table.php(1042): common\widgets\Table->renderTableRow(Object(admin\models\UserCharge), 169, 0)
+#5 /www/web/100gift/public_html/common/widgets/Table.php(847): common\widgets\Table->renderTableBody()
+#6 /www/web/100gift/public_html/common/widgets/Table.php(774): common\widgets\Table->renderItems()
+#7 /www/web/100gift/public_html/common/widgets/Table.php(577): common\widgets\Table->renderSection('{items}')
+#8 [internal function]: common\widgets\Table->common\widgets\{closure}(Array)
+#9 /www/web/100gift/public_html/common/widgets/Table.php(579): preg_replace_callback('/{\\w+}/', Object(Closure), '{search}\n<div c...')
+#10 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Widget.php(98): common\widgets\Table->run()
+#11 /www/web/100gift/public_html/common/traits/QueryTrait.php(368): yii\base\Widget::widget(Array)
+#12 /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php(438): common\components\ARQuery->getTable(Array, Array)
+#13 [internal function]: admin\controllers\UserController->actionChargeRecordList()
+#14 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#15 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Controller.php(160): yii\base\InlineAction->runWithParams(Array)
+#16 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('charge-record-l...', Array)
+#17 /www/web/100gift/public_html/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/user/char...', Array)
+#18 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /www/web/100gift/public_html/frontend/web/index.php(18): yii\base\Application->run()
+#20 {main}
+2017-10-30 17:48:19 [GET][http://100gift.cn/admin/user/charge-record-list][114.230.126.137][2][82tusa2nb18glkhn74jc7djgp5][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Use of undefined constant user - assumed 'user'' in /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php:416
+Stack trace:
+#0 /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php(416): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', '/www/web/100gif...', 416, Array)
+#1 [internal function]: admin\controllers\UserController->admin\controllers\{closure}(Object(admin\models\UserCharge), 169)
+#2 /www/web/100gift/public_html/common/widgets/Table.php(1757): call_user_func(Object(Closure), Object(admin\models\UserCharge), 169)
+#3 /www/web/100gift/public_html/common/widgets/Table.php(1072): common\widgets\Table->getContent(Object(admin\models\UserCharge), 169, Array)
+#4 /www/web/100gift/public_html/common/widgets/Table.php(1042): common\widgets\Table->renderTableRow(Object(admin\models\UserCharge), 169, 0)
+#5 /www/web/100gift/public_html/common/widgets/Table.php(847): common\widgets\Table->renderTableBody()
+#6 /www/web/100gift/public_html/common/widgets/Table.php(774): common\widgets\Table->renderItems()
+#7 /www/web/100gift/public_html/common/widgets/Table.php(577): common\widgets\Table->renderSection('{items}')
+#8 [internal function]: common\widgets\Table->common\widgets\{closure}(Array)
+#9 /www/web/100gift/public_html/common/widgets/Table.php(579): preg_replace_callback('/{\\w+}/', Object(Closure), '{search}\n<div c...')
+#10 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Widget.php(98): common\widgets\Table->run()
+#11 /www/web/100gift/public_html/common/traits/QueryTrait.php(368): yii\base\Widget::widget(Array)
+#12 /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php(438): common\components\ARQuery->getTable(Array, Array)
+#13 [internal function]: admin\controllers\UserController->actionChargeRecordList()
+#14 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#15 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Controller.php(160): yii\base\InlineAction->runWithParams(Array)
+#16 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('charge-record-l...', Array)
+#17 /www/web/100gift/public_html/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/user/char...', Array)
+#18 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /www/web/100gift/public_html/frontend/web/index.php(18): yii\base\Application->run()
+#20 {main}
+2017-10-30 17:48:20 [GET][http://100gift.cn/admin/user/charge-record-list][114.230.126.137][2][82tusa2nb18glkhn74jc7djgp5][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Use of undefined constant user - assumed 'user'' in /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php:416
+Stack trace:
+#0 /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php(416): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', '/www/web/100gif...', 416, Array)
+#1 [internal function]: admin\controllers\UserController->admin\controllers\{closure}(Object(admin\models\UserCharge), 169)
+#2 /www/web/100gift/public_html/common/widgets/Table.php(1757): call_user_func(Object(Closure), Object(admin\models\UserCharge), 169)
+#3 /www/web/100gift/public_html/common/widgets/Table.php(1072): common\widgets\Table->getContent(Object(admin\models\UserCharge), 169, Array)
+#4 /www/web/100gift/public_html/common/widgets/Table.php(1042): common\widgets\Table->renderTableRow(Object(admin\models\UserCharge), 169, 0)
+#5 /www/web/100gift/public_html/common/widgets/Table.php(847): common\widgets\Table->renderTableBody()
+#6 /www/web/100gift/public_html/common/widgets/Table.php(774): common\widgets\Table->renderItems()
+#7 /www/web/100gift/public_html/common/widgets/Table.php(577): common\widgets\Table->renderSection('{items}')
+#8 [internal function]: common\widgets\Table->common\widgets\{closure}(Array)
+#9 /www/web/100gift/public_html/common/widgets/Table.php(579): preg_replace_callback('/{\\w+}/', Object(Closure), '{search}\n<div c...')
+#10 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Widget.php(98): common\widgets\Table->run()
+#11 /www/web/100gift/public_html/common/traits/QueryTrait.php(368): yii\base\Widget::widget(Array)
+#12 /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php(438): common\components\ARQuery->getTable(Array, Array)
+#13 [internal function]: admin\controllers\UserController->actionChargeRecordList()
+#14 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#15 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Controller.php(160): yii\base\InlineAction->runWithParams(Array)
+#16 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('charge-record-l...', Array)
+#17 /www/web/100gift/public_html/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/user/char...', Array)
+#18 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /www/web/100gift/public_html/frontend/web/index.php(18): yii\base\Application->run()
+#20 {main}
+2017-10-30 17:48:21 [GET][http://100gift.cn/admin/user/charge-record-list][114.230.126.137][2][82tusa2nb18glkhn74jc7djgp5][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Use of undefined constant user - assumed 'user'' in /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php:416
+Stack trace:
+#0 /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php(416): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', '/www/web/100gif...', 416, Array)
+#1 [internal function]: admin\controllers\UserController->admin\controllers\{closure}(Object(admin\models\UserCharge), 169)
+#2 /www/web/100gift/public_html/common/widgets/Table.php(1757): call_user_func(Object(Closure), Object(admin\models\UserCharge), 169)
+#3 /www/web/100gift/public_html/common/widgets/Table.php(1072): common\widgets\Table->getContent(Object(admin\models\UserCharge), 169, Array)
+#4 /www/web/100gift/public_html/common/widgets/Table.php(1042): common\widgets\Table->renderTableRow(Object(admin\models\UserCharge), 169, 0)
+#5 /www/web/100gift/public_html/common/widgets/Table.php(847): common\widgets\Table->renderTableBody()
+#6 /www/web/100gift/public_html/common/widgets/Table.php(774): common\widgets\Table->renderItems()
+#7 /www/web/100gift/public_html/common/widgets/Table.php(577): common\widgets\Table->renderSection('{items}')
+#8 [internal function]: common\widgets\Table->common\widgets\{closure}(Array)
+#9 /www/web/100gift/public_html/common/widgets/Table.php(579): preg_replace_callback('/{\\w+}/', Object(Closure), '{search}\n<div c...')
+#10 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Widget.php(98): common\widgets\Table->run()
+#11 /www/web/100gift/public_html/common/traits/QueryTrait.php(368): yii\base\Widget::widget(Array)
+#12 /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php(438): common\components\ARQuery->getTable(Array, Array)
+#13 [internal function]: admin\controllers\UserController->actionChargeRecordList()
+#14 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#15 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Controller.php(160): yii\base\InlineAction->runWithParams(Array)
+#16 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('charge-record-l...', Array)
+#17 /www/web/100gift/public_html/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/user/char...', Array)
+#18 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /www/web/100gift/public_html/frontend/web/index.php(18): yii\base\Application->run()
+#20 {main}
+2017-10-30 17:48:25 [GET][http://100gift.cn/admin/user/charge-record-list][114.230.126.137][2][82tusa2nb18glkhn74jc7djgp5][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Use of undefined constant user - assumed 'user'' in /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php:416
+Stack trace:
+#0 /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php(416): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', '/www/web/100gif...', 416, Array)
+#1 [internal function]: admin\controllers\UserController->admin\controllers\{closure}(Object(admin\models\UserCharge), 169)
+#2 /www/web/100gift/public_html/common/widgets/Table.php(1757): call_user_func(Object(Closure), Object(admin\models\UserCharge), 169)
+#3 /www/web/100gift/public_html/common/widgets/Table.php(1072): common\widgets\Table->getContent(Object(admin\models\UserCharge), 169, Array)
+#4 /www/web/100gift/public_html/common/widgets/Table.php(1042): common\widgets\Table->renderTableRow(Object(admin\models\UserCharge), 169, 0)
+#5 /www/web/100gift/public_html/common/widgets/Table.php(847): common\widgets\Table->renderTableBody()
+#6 /www/web/100gift/public_html/common/widgets/Table.php(774): common\widgets\Table->renderItems()
+#7 /www/web/100gift/public_html/common/widgets/Table.php(577): common\widgets\Table->renderSection('{items}')
+#8 [internal function]: common\widgets\Table->common\widgets\{closure}(Array)
+#9 /www/web/100gift/public_html/common/widgets/Table.php(579): preg_replace_callback('/{\\w+}/', Object(Closure), '{search}\n<div c...')
+#10 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Widget.php(98): common\widgets\Table->run()
+#11 /www/web/100gift/public_html/common/traits/QueryTrait.php(368): yii\base\Widget::widget(Array)
+#12 /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php(438): common\components\ARQuery->getTable(Array, Array)
+#13 [internal function]: admin\controllers\UserController->actionChargeRecordList()
+#14 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#15 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Controller.php(160): yii\base\InlineAction->runWithParams(Array)
+#16 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('charge-record-l...', Array)
+#17 /www/web/100gift/public_html/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/user/char...', Array)
+#18 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /www/web/100gift/public_html/frontend/web/index.php(18): yii\base\Application->run()
+#20 {main}
+2017-10-30 17:48:48 [GET][http://100gift.cn/admin/user/charge-record-list][114.230.126.137][2][82tusa2nb18glkhn74jc7djgp5][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getLeaderName() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php:420
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-30 17:53:06 [GET][http://100gift.cn/admin/user/charge-record-list][114.230.126.137][2][82tusa2nb18glkhn74jc7djgp5][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getLeaderName() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php:420
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-30 17:53:07 [GET][http://100gift.cn/admin/user/charge-record-list][114.230.126.137][2][82tusa2nb18glkhn74jc7djgp5][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getLeaderName() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php:420
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-30 17:53:15 [GET][http://100gift.cn/admin/user/charge-record-list][114.230.126.137][2][82tusa2nb18glkhn74jc7djgp5][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getLeaderName() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php:420
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-30 17:53:16 [GET][http://100gift.cn/admin/user/charge-record-list][114.230.126.137][2][82tusa2nb18glkhn74jc7djgp5][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getLeaderName() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php:420
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-30 17:53:16 [GET][http://100gift.cn/admin/user/charge-record-list][114.230.126.137][2][82tusa2nb18glkhn74jc7djgp5][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getLeaderName() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php:420
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-30 17:53:17 [GET][http://100gift.cn/admin/user/charge-record-list][114.230.126.137][2][82tusa2nb18glkhn74jc7djgp5][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getLeaderName() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php:420
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-30 17:54:09 [GET][http://100gift.cn/admin/user/charge-record-list][114.230.126.137][2][82tusa2nb18glkhn74jc7djgp5][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getLeaderName() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php:420
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-30 17:54:59 [GET][http://100gift.cn/admin/user/charge-record-list][114.230.126.137][2][82tusa2nb18glkhn74jc7djgp5][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getLeaderName() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php:420
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-30 17:55:16 [GET][http://100gift.cn/admin/user/charge-record-list][114.230.126.137][2][82tusa2nb18glkhn74jc7djgp5][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getLeaderName() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php:420
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-30 17:56:02 [GET][http://100gift.cn/admin/user/charge-record-list][114.230.126.137][2][82tusa2nb18glkhn74jc7djgp5][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getLeaderName() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php:420
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-30 17:59:30 [GET][http://100gift.cn/admin/order/list][114.230.126.137][2][82tusa2nb18glkhn74jc7djgp5][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getLeaderName() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:34
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-30 17:59:35 [GET][http://100gift.cn/admin/order/list][114.230.126.137][2][82tusa2nb18glkhn74jc7djgp5][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getLeaderName() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:34
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-30 17:59:53 [GET][http://100gift.cn/admin/order/list][114.230.126.137][2][82tusa2nb18glkhn74jc7djgp5][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getLeaderName() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:34
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-30 17:59:54 [GET][http://100gift.cn/admin/order/list][114.230.126.137][2][82tusa2nb18glkhn74jc7djgp5][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getLeaderName() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:34
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-30 17:59:55 [GET][http://100gift.cn/admin/order/list][114.230.126.137][2][82tusa2nb18glkhn74jc7djgp5][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getLeaderName() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/OrderController.php:34
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-30 19:52:21 [GET][http://www.100gift.cn/admin/user/charge-record-list][117.91.7.62][2][6egpesc8tl8645p5q013gf0k03][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getParentLink() on a non-object' in /www/web/100gift/public_html/frontend/modules/admin/controllers/UserController.php:416
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-30 21:21:33 [GET][http://www.100gift.cn/admin/retail/save-retail][117.91.7.62][2][rlusrj6c0hd98um5mqtbpt4426][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'state' in 'where clause'' in /www/web/100gift/public_html/vendor/yiisoft/yii2/db/Command.php:900
+Stack trace:
+#0 /www/web/100gift/public_html/vendor/yiisoft/yii2/db/Command.php(900): PDOStatement->execute()
+#1 /www/web/100gift/public_html/vendor/yiisoft/yii2/db/Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 /www/web/100gift/public_html/vendor/yiisoft/yii2/db/Query.php(277): yii\db\Command->queryAll()
+#3 /www/web/100gift/public_html/common/traits/QueryTrait.php(131): yii\db\Query->column()
+#4 /www/web/100gift/public_html/common/models/AdminUser.php(158): common\components\ARQuery->map('id', 'username')
+#5 [internal function]: common\models\AdminUser::getPidMap()
+#6 /www/web/100gift/public_html/common/widgets/ActiveField.php(66): call_user_func(Array)
+#7 /www/web/100gift/public_html/common/widgets/ActiveField.php(55): common\widgets\ActiveField->guessItems(Array)
+#8 /www/web/100gift/public_html/frontend/modules/admin/views/retail/saveRetail.php(3): common\widgets\ActiveField->dropDownList()
+#9 /www/web/100gift/public_html/common/components/View.php(37): require('/www/web/100gif...')
+#10 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/View.php(247): common\components\View->renderPhpFile('/www/web/100gif...', Array)
+#11 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/www/web/100gif...', Array, Object(admin\controllers\RetailController))
+#12 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Controller.php(384): yii\base\View->render('saveRetail', Array, Object(admin\controllers\RetailController))
+#13 /www/web/100gift/public_html/frontend/modules/admin/controllers/RetailController.php(132): yii\base\Controller->render('saveRetail', Array)
+#14 [internal function]: admin\controllers\RetailController->actionSaveRetail(0)
+#15 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#16 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Controller.php(160): yii\base\InlineAction->runWithParams(Array)
+#17 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('save-retail', Array)
+#18 /www/web/100gift/public_html/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/retail/sa...', Array)
+#19 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 /www/web/100gift/public_html/frontend/web/index.php(18): yii\base\Application->run()
+#21 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'state' in 'where clause'
+The SQL being executed was: SELECT `username`, `id` FROM `admin_user` `adminUser` WHERE (`state`=1) AND (`power`=9998)' in /www/web/100gift/public_html/vendor/yiisoft/yii2/db/Schema.php:633
+Stack trace:
+#0 /www/web/100gift/public_html/vendor/yiisoft/yii2/db/Command.php(915): yii\db\Schema->convertException(Object(PDOException), 'SELECT `usernam...')
+#1 /www/web/100gift/public_html/vendor/yiisoft/yii2/db/Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 /www/web/100gift/public_html/vendor/yiisoft/yii2/db/Query.php(277): yii\db\Command->queryAll()
+#3 /www/web/100gift/public_html/common/traits/QueryTrait.php(131): yii\db\Query->column()
+#4 /www/web/100gift/public_html/common/models/AdminUser.php(158): common\components\ARQuery->map('id', 'username')
+#5 [internal function]: common\models\AdminUser::getPidMap()
+#6 /www/web/100gift/public_html/common/widgets/ActiveField.php(66): call_user_func(Array)
+#7 /www/web/100gift/public_html/common/widgets/ActiveField.php(55): common\widgets\ActiveField->guessItems(Array)
+#8 /www/web/100gift/public_html/frontend/modules/admin/views/retail/saveRetail.php(3): common\widgets\ActiveField->dropDownList()
+#9 /www/web/100gift/public_html/common/components/View.php(37): require('/www/web/100gif...')
+#10 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/View.php(247): common\components\View->renderPhpFile('/www/web/100gif...', Array)
+#11 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/www/web/100gif...', Array, Object(admin\controllers\RetailController))
+#12 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Controller.php(384): yii\base\View->render('saveRetail', Array, Object(admin\controllers\RetailController))
+#13 /www/web/100gift/public_html/frontend/modules/admin/controllers/RetailController.php(132): yii\base\Controller->render('saveRetail', Array)
+#14 [internal function]: admin\controllers\RetailController->actionSaveRetail(0)
+#15 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#16 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Controller.php(160): yii\base\InlineAction->runWithParams(Array)
+#17 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('save-retail', Array)
+#18 /www/web/100gift/public_html/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/retail/sa...', Array)
+#19 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 /www/web/100gift/public_html/frontend/web/index.php(18): yii\base\Application->run()
+#21 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'state' in 'where clause'
+)
+
+2017-10-30 21:24:44 [GET][http://www.100gift.cn/admin/retail/list][117.91.7.62][2][rlusrj6c0hd98um5mqtbpt4426][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ']'' in /www/web/100gift/public_html/frontend/modules/admin/controllers/RetailController.php:39
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-30 21:24:51 [GET][http://www.100gift.cn/admin/retail/list][117.91.7.62][2][rlusrj6c0hd98um5mqtbpt4426][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: row' in /www/web/100gift/public_html/frontend/modules/admin/controllers/RetailController.php:36
+Stack trace:
+#0 /www/web/100gift/public_html/frontend/modules/admin/controllers/RetailController.php(36): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/www/web/100gif...', 36, Array)
+#1 [internal function]: admin\controllers\RetailController->actionList()
+#2 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Controller.php(160): yii\base\InlineAction->runWithParams(Array)
+#4 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('list', Array)
+#5 /www/web/100gift/public_html/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/retail/li...', Array)
+#6 /www/web/100gift/public_html/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /www/web/100gift/public_html/frontend/web/index.php(18): yii\base\Application->run()
+#8 {main}
+2017-11-03 10:53:50 [POST][http://www.xys8000.cn/admin/site/login][114.230.105.189][-][u8vre7enoeb5rjj0jdvb4jh842][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'xys8000.admin_user' doesn't exist' in /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/db/Command.php:900
+Stack trace:
+#0 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/db/Command.php(900): PDOStatement->execute()
+#1 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/db/Command.php(376): yii\db\Command->queryInternal('fetch', NULL)
+#2 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/db/Query.php(247): yii\db\Command->queryOne()
+#3 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/db/ActiveQuery.php(290): yii\db\Query->one(NULL)
+#4 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/db/BaseActiveRecord.php(107): yii\db\ActiveQuery->one()
+#5 /www/web/www_xys8000_cn/public_html/frontend/modules/admin/components/AdminWebUser.php(31): yii\db\BaseActiveRecord::findOne(Array)
+#6 /www/web/www_xys8000_cn/public_html/frontend/modules/admin/models/LoginForm.php(57): admin\components\AdminWebUser::findByUsername('admin')
+#7 /www/web/www_xys8000_cn/public_html/frontend/modules/admin/models/LoginForm.php(38): admin\models\LoginForm->getUser()
+#8 [internal function]: admin\models\LoginForm->validatePassword('password', NULL)
+#9 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/validators/InlineValidator.php(69): call_user_func(Array, 'password', NULL)
+#10 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/validators/Validator.php(252): yii\validators\InlineValidator->validateAttribute(Object(admin\models\LoginForm), 'password')
+#11 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/base/Model.php(356): yii\validators\Validator->validateAttributes(Object(admin\models\LoginForm), Array)
+#12 /www/web/www_xys8000_cn/public_html/frontend/modules/admin/models/LoginForm.php(47): yii\base\Model->validate()
+#13 /www/web/www_xys8000_cn/public_html/frontend/modules/admin/controllers/SiteController.php(71): admin\models\LoginForm->login()
+#14 [internal function]: admin\controllers\SiteController->actionLogin()
+#15 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#16 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/base/Controller.php(160): yii\base\InlineAction->runWithParams(Array)
+#17 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('login', Array)
+#18 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/site/logi...', Array)
+#19 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 /www/web/www_xys8000_cn/public_html/frontend/web/index.php(18): yii\base\Application->run()
+#21 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'xys8000.admin_user' doesn't exist
+The SQL being executed was: SELECT * FROM `admin_user` WHERE `username`='admin'' in /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/db/Schema.php:633
+Stack trace:
+#0 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/db/Command.php(915): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/db/Command.php(376): yii\db\Command->queryInternal('fetch', NULL)
+#2 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/db/Query.php(247): yii\db\Command->queryOne()
+#3 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/db/ActiveQuery.php(290): yii\db\Query->one(NULL)
+#4 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/db/BaseActiveRecord.php(107): yii\db\ActiveQuery->one()
+#5 /www/web/www_xys8000_cn/public_html/frontend/modules/admin/components/AdminWebUser.php(31): yii\db\BaseActiveRecord::findOne(Array)
+#6 /www/web/www_xys8000_cn/public_html/frontend/modules/admin/models/LoginForm.php(57): admin\components\AdminWebUser::findByUsername('admin')
+#7 /www/web/www_xys8000_cn/public_html/frontend/modules/admin/models/LoginForm.php(38): admin\models\LoginForm->getUser()
+#8 [internal function]: admin\models\LoginForm->validatePassword('password', NULL)
+#9 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/validators/InlineValidator.php(69): call_user_func(Array, 'password', NULL)
+#10 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/validators/Validator.php(252): yii\validators\InlineValidator->validateAttribute(Object(admin\models\LoginForm), 'password')
+#11 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/base/Model.php(356): yii\validators\Validator->validateAttributes(Object(admin\models\LoginForm), Array)
+#12 /www/web/www_xys8000_cn/public_html/frontend/modules/admin/models/LoginForm.php(47): yii\base\Model->validate()
+#13 /www/web/www_xys8000_cn/public_html/frontend/modules/admin/controllers/SiteController.php(71): admin\models\LoginForm->login()
+#14 [internal function]: admin\controllers\SiteController->actionLogin()
+#15 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#16 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/base/Controller.php(160): yii\base\InlineAction->runWithParams(Array)
+#17 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('login', Array)
+#18 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/site/logi...', Array)
+#19 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 /www/web/www_xys8000_cn/public_html/frontend/web/index.php(18): yii\base\Application->run()
+#21 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'xys8000.admin_user' doesn't exist
+)
+
+2017-11-03 10:54:29 [POST][http://www.xys8000.cn/admin/site/login][114.230.105.189][-][u8vre7enoeb5rjj0jdvb4jh842][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'xys8000.admin_user' doesn't exist' in /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/db/Command.php:900
+Stack trace:
+#0 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/db/Command.php(900): PDOStatement->execute()
+#1 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/db/Command.php(376): yii\db\Command->queryInternal('fetch', NULL)
+#2 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/db/Query.php(247): yii\db\Command->queryOne()
+#3 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/db/ActiveQuery.php(290): yii\db\Query->one(NULL)
+#4 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/db/BaseActiveRecord.php(107): yii\db\ActiveQuery->one()
+#5 /www/web/www_xys8000_cn/public_html/frontend/modules/admin/components/AdminWebUser.php(31): yii\db\BaseActiveRecord::findOne(Array)
+#6 /www/web/www_xys8000_cn/public_html/frontend/modules/admin/models/LoginForm.php(57): admin\components\AdminWebUser::findByUsername('admin')
+#7 /www/web/www_xys8000_cn/public_html/frontend/modules/admin/models/LoginForm.php(38): admin\models\LoginForm->getUser()
+#8 [internal function]: admin\models\LoginForm->validatePassword('password', NULL)
+#9 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/validators/InlineValidator.php(69): call_user_func(Array, 'password', NULL)
+#10 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/validators/Validator.php(252): yii\validators\InlineValidator->validateAttribute(Object(admin\models\LoginForm), 'password')
+#11 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/base/Model.php(356): yii\validators\Validator->validateAttributes(Object(admin\models\LoginForm), Array)
+#12 /www/web/www_xys8000_cn/public_html/frontend/modules/admin/models/LoginForm.php(47): yii\base\Model->validate()
+#13 /www/web/www_xys8000_cn/public_html/frontend/modules/admin/controllers/SiteController.php(71): admin\models\LoginForm->login()
+#14 [internal function]: admin\controllers\SiteController->actionLogin()
+#15 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#16 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/base/Controller.php(160): yii\base\InlineAction->runWithParams(Array)
+#17 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('login', Array)
+#18 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/site/logi...', Array)
+#19 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 /www/web/www_xys8000_cn/public_html/frontend/web/index.php(18): yii\base\Application->run()
+#21 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'xys8000.admin_user' doesn't exist
+The SQL being executed was: SELECT * FROM `admin_user` WHERE `username`='admin'' in /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/db/Schema.php:633
+Stack trace:
+#0 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/db/Command.php(915): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/db/Command.php(376): yii\db\Command->queryInternal('fetch', NULL)
+#2 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/db/Query.php(247): yii\db\Command->queryOne()
+#3 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/db/ActiveQuery.php(290): yii\db\Query->one(NULL)
+#4 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/db/BaseActiveRecord.php(107): yii\db\ActiveQuery->one()
+#5 /www/web/www_xys8000_cn/public_html/frontend/modules/admin/components/AdminWebUser.php(31): yii\db\BaseActiveRecord::findOne(Array)
+#6 /www/web/www_xys8000_cn/public_html/frontend/modules/admin/models/LoginForm.php(57): admin\components\AdminWebUser::findByUsername('admin')
+#7 /www/web/www_xys8000_cn/public_html/frontend/modules/admin/models/LoginForm.php(38): admin\models\LoginForm->getUser()
+#8 [internal function]: admin\models\LoginForm->validatePassword('password', NULL)
+#9 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/validators/InlineValidator.php(69): call_user_func(Array, 'password', NULL)
+#10 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/validators/Validator.php(252): yii\validators\InlineValidator->validateAttribute(Object(admin\models\LoginForm), 'password')
+#11 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/base/Model.php(356): yii\validators\Validator->validateAttributes(Object(admin\models\LoginForm), Array)
+#12 /www/web/www_xys8000_cn/public_html/frontend/modules/admin/models/LoginForm.php(47): yii\base\Model->validate()
+#13 /www/web/www_xys8000_cn/public_html/frontend/modules/admin/controllers/SiteController.php(71): admin\models\LoginForm->login()
+#14 [internal function]: admin\controllers\SiteController->actionLogin()
+#15 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#16 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/base/Controller.php(160): yii\base\InlineAction->runWithParams(Array)
+#17 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('login', Array)
+#18 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/site/logi...', Array)
+#19 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 /www/web/www_xys8000_cn/public_html/frontend/web/index.php(18): yii\base\Application->run()
+#21 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'xys8000.admin_user' doesn't exist
+)
+
+2017-11-03 10:54:45 [POST][http://www.xys8000.cn/admin/site/login][114.230.105.189][-][u8vre7enoeb5rjj0jdvb4jh842][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'xys8000.admin_user' doesn't exist' in /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/db/Command.php:900
+Stack trace:
+#0 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/db/Command.php(900): PDOStatement->execute()
+#1 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/db/Command.php(376): yii\db\Command->queryInternal('fetch', NULL)
+#2 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/db/Query.php(247): yii\db\Command->queryOne()
+#3 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/db/ActiveQuery.php(290): yii\db\Query->one(NULL)
+#4 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/db/BaseActiveRecord.php(107): yii\db\ActiveQuery->one()
+#5 /www/web/www_xys8000_cn/public_html/frontend/modules/admin/components/AdminWebUser.php(31): yii\db\BaseActiveRecord::findOne(Array)
+#6 /www/web/www_xys8000_cn/public_html/frontend/modules/admin/models/LoginForm.php(57): admin\components\AdminWebUser::findByUsername('admin')
+#7 /www/web/www_xys8000_cn/public_html/frontend/modules/admin/models/LoginForm.php(38): admin\models\LoginForm->getUser()
+#8 [internal function]: admin\models\LoginForm->validatePassword('password', NULL)
+#9 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/validators/InlineValidator.php(69): call_user_func(Array, 'password', NULL)
+#10 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/validators/Validator.php(252): yii\validators\InlineValidator->validateAttribute(Object(admin\models\LoginForm), 'password')
+#11 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/base/Model.php(356): yii\validators\Validator->validateAttributes(Object(admin\models\LoginForm), Array)
+#12 /www/web/www_xys8000_cn/public_html/frontend/modules/admin/models/LoginForm.php(47): yii\base\Model->validate()
+#13 /www/web/www_xys8000_cn/public_html/frontend/modules/admin/controllers/SiteController.php(71): admin\models\LoginForm->login()
+#14 [internal function]: admin\controllers\SiteController->actionLogin()
+#15 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#16 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/base/Controller.php(160): yii\base\InlineAction->runWithParams(Array)
+#17 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('login', Array)
+#18 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/site/logi...', Array)
+#19 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 /www/web/www_xys8000_cn/public_html/frontend/web/index.php(18): yii\base\Application->run()
+#21 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'xys8000.admin_user' doesn't exist
+The SQL being executed was: SELECT * FROM `admin_user` WHERE `username`='admin'' in /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/db/Schema.php:633
+Stack trace:
+#0 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/db/Command.php(915): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/db/Command.php(376): yii\db\Command->queryInternal('fetch', NULL)
+#2 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/db/Query.php(247): yii\db\Command->queryOne()
+#3 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/db/ActiveQuery.php(290): yii\db\Query->one(NULL)
+#4 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/db/BaseActiveRecord.php(107): yii\db\ActiveQuery->one()
+#5 /www/web/www_xys8000_cn/public_html/frontend/modules/admin/components/AdminWebUser.php(31): yii\db\BaseActiveRecord::findOne(Array)
+#6 /www/web/www_xys8000_cn/public_html/frontend/modules/admin/models/LoginForm.php(57): admin\components\AdminWebUser::findByUsername('admin')
+#7 /www/web/www_xys8000_cn/public_html/frontend/modules/admin/models/LoginForm.php(38): admin\models\LoginForm->getUser()
+#8 [internal function]: admin\models\LoginForm->validatePassword('password', NULL)
+#9 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/validators/InlineValidator.php(69): call_user_func(Array, 'password', NULL)
+#10 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/validators/Validator.php(252): yii\validators\InlineValidator->validateAttribute(Object(admin\models\LoginForm), 'password')
+#11 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/base/Model.php(356): yii\validators\Validator->validateAttributes(Object(admin\models\LoginForm), Array)
+#12 /www/web/www_xys8000_cn/public_html/frontend/modules/admin/models/LoginForm.php(47): yii\base\Model->validate()
+#13 /www/web/www_xys8000_cn/public_html/frontend/modules/admin/controllers/SiteController.php(71): admin\models\LoginForm->login()
+#14 [internal function]: admin\controllers\SiteController->actionLogin()
+#15 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#16 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/base/Controller.php(160): yii\base\InlineAction->runWithParams(Array)
+#17 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('login', Array)
+#18 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/site/logi...', Array)
+#19 /www/web/www_xys8000_cn/public_html/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 /www/web/www_xys8000_cn/public_html/frontend/web/index.php(18): yii\base\Application->run()
+#21 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'xys8000.admin_user' doesn't exist
+)
+
+2018-01-03 16:06:53 [GET][http://www.weijiaoyi.com/admin/site/login][127.0.0.1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Can't use function return value in write context' in D:\web\www_xys8000_cn\public_html\vendor\yiisoft\yii2\base\Controller.php:84
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-01-03 16:06:57 [GET][http://www.weijiaoyi.com/admin/site/login][127.0.0.1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Can't use function return value in write context' in D:\web\www_xys8000_cn\public_html\vendor\yiisoft\yii2\base\Controller.php:84
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-01-03 16:06:58 [GET][http://www.weijiaoyi.com/admin/site/login][127.0.0.1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Can't use function return value in write context' in D:\web\www_xys8000_cn\public_html\vendor\yiisoft\yii2\base\Controller.php:84
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-01-03 16:06:59 [GET][http://www.weijiaoyi.com/admin/site/login][127.0.0.1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Can't use function return value in write context' in D:\web\www_xys8000_cn\public_html\vendor\yiisoft\yii2\base\Controller.php:84
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-01-03 17:43:10 [GET][http://www.weijiaoyi.com/admin/site/login][127.0.0.1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Can't use function return value in write context' in D:\web\www_xys8000_cn\public_html\vendor\yiisoft\yii2\base\Controller.php:84
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-01-03 17:43:25 [GET][http://www.weijiaoyi.com/admin/site/login/aaa][127.0.0.1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Can't use function return value in write context' in D:\web\www_xys8000_cn\public_html\vendor\yiisoft\yii2\base\Controller.php:84
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-01-04 14:43:48 [GET][http://www.weijiaoyi.com/admin/site/login/aaa][127.0.0.1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Can't use function return value in write context' in D:\web\www_xys8000_cn\public_html\vendor\yiisoft\yii2\base\Controller.php:84
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
